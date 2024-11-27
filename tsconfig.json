@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "lib": ["ES2020"],
+    "noEmit": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "dist"],
+
+  /* AND if you're building for a library: */
+  "declaration": true,
+  /* AND if you're building for a library in a monorepo: */
+  "declarationMap": true
+}
