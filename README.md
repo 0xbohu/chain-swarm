@@ -5,7 +5,7 @@
 
 ## Overview
 
-CHAIM-SWARM is a repository for implementing [OpenAI Swarm API](https://github.com/openai/swarm) framework. The purpose of project is to experiment multi-agents orchestration to build a seamless experience between web2 and web3 AI agents.
+CHAIM-SWARM is a repository for implementing [OpenAI Swarm API](https://github.com/openai/swarm) framework. The purpose of project is leverage BrianAPI and StarknetJS to experiment multi-agents collaboration and build a seamless experience with the support of multiple web2 and web3 AI agents.
 
 ## Features
 
@@ -43,6 +43,45 @@ npx tsx examples/all
 ```
 
 ## Demo
+
+## Ask BrianAgent about blockahin knowledge
+
+Ask `What is uniswap` get transferred to brianAgent to handle user input
+
+![Ask Brian](./assets/cs_kb.png)
+
+## Post on twitter
+
+Summarise brian's answer about Uniswap and post on twitter
+`User: summarise brian's answer to 20 words and post on twitter`
+![Post on Twitter](./assets/cs_postx.png)
+
+Result [Tweet](https://x.com/0xbohu/status/1862055857854489065)
+![Tweet](./assets/cs_x.png)
+
+## Get Code Example from BrianAgent
+
+Ask brian to provide ERC20 token example
+`User: give me an example of ERC20 token`
+![ERC20](./assets/cs_codeexample.png)
+
+## Get Swap CallData from BrianAgent
+
+Ask brian to prepare swap data
+`User: swap 0.001 ETH to STRK on starknet`
+![Swap Data](./assets/cs_swapdata.png)
+
+## Execute swap with StarknetAgent
+
+Ask Starknet to use brian's swap calldata to execute the swap on Starknet mainnet
+`User: execute calldata`
+![Execute swap](./assets/cs_executecalldata.png)
+
+Result showing in AgentX wallet
+
+![AgentX](./assets/agentx_tx.png)
+
+Check [transation](https://voyager.online/tx/0x363a2a612f46d06519c268bcd16916dbea36cfb21a15ac0db74a9e0017121d8)
 
 ## Acknowledgements
 
