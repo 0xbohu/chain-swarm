@@ -36,6 +36,14 @@ Use your preferred package manager:
 pnpm add
 ```
 
+Update `.env.local` file to `.env` file with your own API credentials
+
+- [Brian API](https://docs.brianknows.org/brian-api/apis)
+- [StarknetJS](https://starknetjs.com/)
+- [TS-SWARM](https://github.com/joshmu/ts-swarm)
+- [Vercel AI SDK](https://github.com/vercel/ai)
+- [Swarm API](https://github.com/openai/swarm)
+
 Run the example:
 
 ```bash
